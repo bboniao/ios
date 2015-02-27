@@ -135,6 +135,7 @@
 				DA12B7171A01152B00B48F9A /* PersonDetailAssembly.swift */,
 			);
 			name = Assembly;
+			path = Assermbly;
 			sourceTree = "<group>";
 		};
 		DA102EBB19F7FF220042DBBF = {
@@ -179,7 +180,7 @@
 			children = (
 				DA102EC819F7FF220042DBBF /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DA102EDF19F7FF220042DBBF /* PersonsTests */ = {
@@ -206,7 +207,7 @@
 				DA102EED19F7FFDE0042DBBF /* Data Store */,
 				DA102EF619F8079A0042DBBF /* RootWireframe.swift */,
 			);
-			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		DA102EED19F7FFDE0042DBBF /* Data Store */ = {
@@ -216,7 +217,7 @@
 				DA102EEE19F800410042DBBF /* Managed Entities */,
 				DA102ECB19F7FF220042DBBF /* Persons.xcdatamodeld */,
 			);
-			name = "Data Store";
+			path = "Data Store";
 			sourceTree = "<group>";
 		};
 		DA102EEE19F800410042DBBF /* Managed Entities */ = {
@@ -224,7 +225,7 @@
 			children = (
 				DA102EEF19F800680042DBBF /* ManagedPerson.swift */,
 			);
-			name = "Managed Entities";
+			path = "Managed Entities";
 			sourceTree = "<group>";
 		};
 		DA102EF119F800940042DBBF /* Entities */ = {
@@ -232,7 +233,7 @@
 			children = (
 				DA102EF219F800A20042DBBF /* Person.swift */,
 			);
-			name = Entities;
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		DA102EF819F8096A0042DBBF /* Modules */ = {
@@ -242,7 +243,7 @@
 				DA102F1619F809850042DBBF /* Person List */,
 				DA102F1519F8097B0042DBBF /* Person Details */,
 			);
-			name = Modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		DA102F1519F8097B0042DBBF /* Person Details */ = {
@@ -252,7 +253,7 @@
 				DA102F1F19F80B940042DBBF /* User Interface */,
 				DA102EFE19F809770042DBBF /* PersonDetailWireframe.swift */,
 			);
-			name = "Person Details";
+			path = "Person Details";
 			sourceTree = "<group>";
 		};
 		DA102F1619F809850042DBBF /* Person List */ = {
@@ -262,7 +263,7 @@
 				DA102F1D19F80B7D0042DBBF /* User Interface */,
 				DA102F0619F809770042DBBF /* PersonListWireframe.swift */,
 			);
-			name = "Person List";
+			path = "Person List";
 			sourceTree = "<group>";
 		};
 		DA102F1B19F80B640042DBBF /* Business Logic */ = {
@@ -271,7 +272,7 @@
 				DA102F0219F809770042DBBF /* PersonListInteractor.swift */,
 				DA102F2A19F91E9B0042DBBF /* PersonListInteractorIO.swift */,
 			);
-			name = "Business Logic";
+			path = "Business Logic";
 			sourceTree = "<group>";
 		};
 		DA102F1D19F80B7D0042DBBF /* User Interface */ = {
@@ -283,7 +284,7 @@
 				DA102F0419F809770042DBBF /* PersonListViewController.swift */,
 				DA102F0519F809770042DBBF /* PersonListViewModel.swift */,
 			);
-			name = "User Interface";
+			path = "User Interface";
 			sourceTree = "<group>";
 		};
 		DA102F1E19F80B8B0042DBBF /* Business Logic */ = {
@@ -292,7 +293,7 @@
 				DA102EFA19F809770042DBBF /* PersonDetailInteractor.swift */,
 				DA102F2C19F9204E0042DBBF /* PersonDetailInteractorIO.swift */,
 			);
-			name = "Business Logic";
+			path = "Business Logic";
 			sourceTree = "<group>";
 		};
 		DA102F1F19F80B940042DBBF /* User Interface */ = {
@@ -302,7 +303,7 @@
 				DA102EFC19F809770042DBBF /* PersonDetailViewController.swift */,
 				DA102EFD19F809770042DBBF /* PersonDetailViewModel.swift */,
 			);
-			name = "User Interface";
+			path = "User Interface";
 			sourceTree = "<group>";
 		};
 		DA102F2119F8F7BA0042DBBF /* Class Extensions */ = {
@@ -310,7 +311,7 @@
 			children = (
 				DA102F2219F8F7C70042DBBF /* NSDateConvenience.swift */,
 			);
-			name = "Class Extensions";
+			path = "Class Extensions";
 			sourceTree = "<group>";
 		};
 		DA102F2419F9008F0042DBBF /* Person Common */ = {
@@ -318,7 +319,7 @@
 			children = (
 				DA102F2519F900960042DBBF /* Data Store */,
 			);
-			name = "Person Common";
+			path = "Person Common";
 			sourceTree = "<group>";
 		};
 		DA102F2519F900960042DBBF /* Data Store */ = {
@@ -327,7 +328,7 @@
 				DA102F2619F900A60042DBBF /* PersonDataStore.swift */,
 				DA102F2819F9036C0042DBBF /* PersonCoreDataStore.swift */,
 			);
-			name = "Data Store";
+			path = "Data Store";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -608,7 +609,7 @@
 			baseConfigurationReference = 58FADDE2700C7C507611F26C /* Pods-Persons.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Persons/Info.plist;
+				INFOPLIST_FILE = "Persons/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -621,7 +622,7 @@
 			baseConfigurationReference = E6928C8C1DED89665480B7B2 /* Pods-Persons.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Persons/Info.plist;
+				INFOPLIST_FILE = "Persons/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
